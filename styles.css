@@ -4,7 +4,6 @@
   --primary-color: #93B5C6;
   --primary-color-dark: #C9CCD5;
   --accent-color: #E4D8DC;
-  
 }
 
 html {
@@ -217,7 +216,7 @@ footer {
 }
 
 .tech-icons-container {
-  background-color: rgba(255, 255, 255, 0.801);
+  background-color: var(--accent-color)
   border-radius: 5px;
   display: flex;
   flex-direction: column;
